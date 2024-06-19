@@ -1,0 +1,34 @@
+body{
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background: url('./bg.jpg');
+    background-size: cover;
+    
+}
+#home{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    top: 40%;
+    position:absolute;
+    left:50%;
+    font-size:xx-large;
+    transform: translate(-50%, -50%);
+    font-style:normal;
+    color: white;        
+    background-size: cover;
+}
+#play{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center ;
+    height: 10%;
+    width:20%;
+    top: 50%;
+    position:absolute;
+    left:50%;
+    font-size:xx-large;
+    transform: translate(-50%, -50%);
+    font-style:normal;
+    background-size: cover;
+}
