@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="home.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="top half">
+          <img src="homepage.jpg" alt="homepage"/>
+        </div>
+        <div class="bottom half">
+            <img src="homepage.jpg" alt="homepage"/>
+        </div>
+        <button id="go_game" class="super-button" onclick="change_page()">Enter Game</button>
+        <div class="overlay"></div>
+        <div class="button-line left">
+          <div class="inner"></div>
+        </div>
+        <div class="button-line right">
+          <div class="inner"></div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="hello">Welcome!</div>
+        <nav>
+          <ul>
+            <li class="active"><a href="#">Player Information</a></li>
+           <li>
+            <form action="#" method="GET">
+                <input autofocus id="name" placeholder="" type="text">
+                <button type="submit">Enter</button>
+            </form>
+           </li>    
+          </ul>
+        </nav>
+      </div>
+
+    
+</body>
+</html>
